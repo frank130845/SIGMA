@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "question": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?",
+  "refined_cot": "Revised reasoning:\n- Next step:\nCalculate the total amount of money Betty will have after receiving money from her parents and grandparents.\n- Following that, subtract the total amount of money Betty will have from the cost of the wallet to find out how much more money Betty needs to buy the wallet.",
+  "original_cot": [
+    "Next step:\n\nCalculate the total amount of money Betty will have after receiving money from her parents and grandparents."
+  ],
+  "textgrad_feedback": "The best path provided the correct next step of calculating the total amount of money Betty will have after receiving money from her parents and grandparents, which is a crucial step in solving the problem. However, the solution should be completed by calculating the remaining amount of money Betty needs to buy the wallet.\n\nTo improve the best path:\n- After calculating the total amount of money Betty will have, it is essential to compute the difference between the total amount of money Betty will have and the cost of the wallet. This will determine how much more money Betty needs to buy the wallet.\n\nTherefore, the next step following the calculation of the total amount of money Betty will have should be:\n- Subtract the total amount of money Betty will have from the cost of the wallet to find out how much more money Betty needs to buy the wallet."
+}
