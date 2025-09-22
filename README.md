@@ -1,5 +1,3 @@
-<!-- BEGIN README -->
-
 # SIGMA: Refining Large Language Model Reasoning via Sibling-Guided Monte Carlo Augmentation
 
 <p align="center">
@@ -24,65 +22,13 @@ Instead of discarding non-optimal branches, SIGMA links sibling nodes and perfor
 ---
 
 ## 📖 How to Use
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/frank130845/SIGMA-Refining-Large-Language-Model-Reasoning-via-Sibling-Guided-Monte-Carlo-Augmentation.git
-   cd SIGMA-Refining-Large-Language-Model-Reasoning-via-Sibling-Guided-Monte-Carlo-Augmentation
-   ```
-
-2. **Install dependencies** (Python ≥ 3.9)
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Example `requirements.txt`:
-   ```txt
-   torch>=2.0.0
-   transformers>=4.40.0
-   openai>=1.0.0
-   tqdm
-   pyyaml
-   numpy
-   ```
-
-3. **Export OpenAI API configuration**
-   ```bash
-   export OPENAI_API_BASE="your_base_url"
-   export OPENAI_API_KEY="your_api_key"
-   ```
-
-4. **Run**
-   ```bash
-   python main.py
-   ```
-
-5. **Outputs**
-   - Results and logs are saved under `outputs/`.
-   - Edit `config.yaml` to change dataset/model/training params.
+🚧 Code is still being uploaded. Full usage instructions will be added soon. 🚧
 
 ---
 
 ## 📊 Results
 - On **MATH**, a SIGMA-fine-tuned **7B** model reaches **54.92%** accuracy with only **30K** samples, outperforming models trained with **590K** samples.
 
----
-
-## 📜 Citation
-If you find this repo useful, please cite:
-
-```bibtex
-@inproceedings{ren2025sigma,
-  title={SIGMA: Refining Large Language Model Reasoning via Sibling-Guided Monte Carlo Augmentation},
-  author={Ren, Yanwei and Zhang, Haotian and Wu, Fuxiang and Qiu, Jiayan and Huang, Jiaxing and Yu, Baosheng and Liu, Liu},
-  booktitle={NeurIPS},
-  year={2025}
-}
-```
-
----
 
 ## ❤️ Acknowledgements
 We build on prior work in **LLM reasoning**, **MCTS**, and **chain-of-thought** data generation.
-
-<!-- END README -->
